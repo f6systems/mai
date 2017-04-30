@@ -15,7 +15,7 @@ func init() {
 func main() {
 	log.Printf("Starting.\n")
 	http.Handle("/", http.HandlerFunc(sayHello))
-	http.Handle("/ip", http.HandlerFunc(ip))
+	http.Handle("/ip", http.HandlerFunc(IP))
 	http.Handle("/dude", http.HandlerFunc(Dude))
 	//err := http.ListenAndServe("0.0.0.0:80", nil)
 	//err := http.ListenAndServe("10.12.1.50:80", nil)
