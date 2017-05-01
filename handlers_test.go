@@ -8,6 +8,10 @@ import (
 	"testing"
 )
 
+func init() {
+	log.Printf("[handers_test:init()] <INFO> Simple log message to note Tests starting.(TODO:(hopley) - An internet resource to capture/log event.)\n")
+}
+
 //TestDude
 func TestDude(t *testing.T) {
 	log.Printf("[TestDude] - Starting test.\n")
