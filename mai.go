@@ -21,7 +21,7 @@ func main() {
 	//err := http.ListenAndServe("0.0.0.0:80", nil)
 	//err := http.ListenAndServe("10.12.1.50:80", nil)
 	//err := http.ListenAndServe("10.12.1.239:80", nil)
-	log.Printf("Server to start on port = %q\n",srvPort)
+	log.Printf("Starting. Server to start on port = %q\n",srvPort)
 	err = http.ListenAndServe(srvPort, nil)
 	// err := http.ListenAndServe("10.9.8.78:8080", nil)
 	if err != nil {
