@@ -1,8 +1,9 @@
 pipeline:
  build:
   image: golang
-  commands:
-          - go get -v 
-          - go build -v 
-          - go test -v 
+ commands:
+   - go get github.com/f6systems/mai
+   - go build -v
+   - go test -v
+
 
