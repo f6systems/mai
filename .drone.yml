@@ -6,5 +6,3 @@ pipeline:
           - go build -v 
           - go test -v 
 
-
-
