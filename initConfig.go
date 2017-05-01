@@ -7,5 +7,5 @@ import (
 )
 
 func init() {
-	log.Printf("[initConfig:init()] - init()\n")
+	log.Printf("[initConfig:init()] - init().\n")
 }
