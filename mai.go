@@ -13,7 +13,7 @@ func init() {
 }
 
 func main() {
-	log.Printf("Starting. (testing drone v0.5.0)\n")
+	log.Printf("Starting. (Testing drone v0.5.0)\n")
 	srvPort := "8888"
 	http.Handle("/", http.HandlerFunc(sayHello))
 	http.Handle("/ip", http.HandlerFunc(IP))
