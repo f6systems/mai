@@ -18,7 +18,7 @@ func main() {
 	http.Handle("/", http.HandlerFunc(sayHello))
 	http.Handle("/ip", http.HandlerFunc(IP))
 	http.Handle("/dude", http.HandlerFunc(Dude))
-	log.Printf("Starting. Server to start on port = %q\n",srvPort)
+	log.Printf("Starting. Server mai to start on port = %q\n",srvPort)
 	err := http.ListenAndServe(srvPort, nil)
 	if err != nil {
 		fmt.Printf("ListenAndServe Error. (err=%s)\n", err)
