@@ -1,6 +1,6 @@
 workspace:
         base: /drone
-        path: src/github.com/f6systems/mai
+        path: go
 
 pipeline:
         build:
